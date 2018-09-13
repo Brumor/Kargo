@@ -1,0 +1,24 @@
+| ![Screenshots](https://github.com/Brumor/Kargo/blob/master/screenshots/Kargo5.jpg )
+| ![Screenshots](https://github.com/Brumor/Kargo/blob/master/screenshots/kargo4.jpg )
+| ![Screenshots](https://github.com/Brumor/Kargo/blob/master/screenshots/kargo3.jpg)
+| ![Screenshots](https://github.com/Brumor/Kargo/blob/master/screenshots/kargo2.jpg)
+| ![Screenshots](https://github.com/Brumor/Kargo/blob/master/screenshots/kargo1.jpg)
+|:---:|:---:|:---:|
+
+# Kargo
+
+## Presentation
+
+**Kargo** is an app for professional and non-professional courier that would optimize their trajectory and give them more customer opportunity
+
+## Technical aspects
+
+**Kargo** uses Google Firebase for its Database, User Authentication, Notification and Web Storage.
+
+**Kargo** works this way :
+
+* The Courier choose his settings, availability and settings
+
+* The User can choose, while ordering, from a website to be delivered by Kargo, which means that he will be delivered as fast as possible
+
+* The closest available Courier will be notified of the order and will have a trajectory made by the algorithm, with the possibility of taking into account more than one pickup point and destination
