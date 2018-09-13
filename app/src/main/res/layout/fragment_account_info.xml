@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".FragmentLayout.AccountInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/test_pp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="@string/account_info_country"/>
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="France"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="@string/account_info_city"/>
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="Lyon"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="@string/account_info_state"/>
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="Independant"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="@string/account_info_signin_date"/>
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="21/12/2015"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="@string/account_info_delivery_number"/>
+
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="356"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="@string/account_info_telephone"/>
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="0678716814"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="@string/account_info_mail"/>
+                    <TextView
+                        style="@style/OptionItemText"
+                        android:text="paulbricout2@gmail.com"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            style="@style/KargoBlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_info_button"
+            android:layout_margin="0dp"/>
+    </LinearLayout>
+
+</FrameLayout>

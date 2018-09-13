@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.kargo.DeliveryConfirmActivity">
+
+    <com.app.kargo.DrawingView
+        android:id="@+id/drawing"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="16"
+        android:background="#FFFFFFFF" />
+
+    <Button
+        style="@style/KargoBlueButton"
+        android:id="@+id/erase_button"
+        android:text="@string/delivery_confirm_erase"
+
+        />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="@string/delivery_confirm_comment"/>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:text="@string/delivery_confirm_confirm"
+        style="@style/KargoBlueButton"
+        />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#fff"
+tools:context=".NewUserActivity">
+
+<ImageView
+    android:id="@+id/kargo_logo"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:src="@drawable/logo"/>
+
+<EditText
+    android:id="@+id/email_edittext"
+    style="@style/AuthEditText"
+    android:hint="@string/edittext_email_hint"
+    android:inputType="textEmailAddress"
+    android:layout_marginBottom="16dp"
+    android:layout_above="@+id/password_edittext"
+    android:layout_centerHorizontal="true" />
+
+<EditText
+    android:id="@+id/password_edittext"
+    style="@style/AuthEditText"
+    android:hint="@string/edittext_password_hint"
+    android:inputType="textPassword"
+    android:layout_marginBottom="27dp"
+    android:layout_above="@+id/subscribe_submit_button"
+    android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/subscribe_submit_button"
+        style="@style/KargoBlueButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/button_signup_goto" />
+
+</RelativeLayout>

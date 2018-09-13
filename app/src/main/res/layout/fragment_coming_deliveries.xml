@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragmentLayout.ComingDeliveriesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/backgroundGrey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/ComingDeliveryItemText"
+                android:text="@string/coming_delivery_from"/>
+            <TextView
+                android:text="Fnac Bellecour"
+                style="@style/ComingDeliveryItemText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/ComingDeliveryItemText"
+                android:text="@string/coming_delivery_destinations"/>
+            <TextView
+                android:text="5"
+                style="@style/ComingDeliveryItemText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/ComingDeliveryItemText"
+                android:text="@string/coming_delivery_packages"/>
+            <TextView
+                android:text="13"
+                style="@style/ComingDeliveryItemText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/ComingDeliveryItemText"
+                android:text="@string/coming_delivery_duration"/>
+            <TextView
+                android:text="2h"
+                style="@style/ComingDeliveryItemText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rectangle"
+            android:orientation="vertical"
+            android:padding="6dp">
+            <TextView
+                style="@style/ComingDeliveryItemText"
+                android:text="@string/coming_delivery_details"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"/>
+
+            <android.support.v7.widget.RecyclerView
+            android:id="@+id/coming_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:scrollbars="vertical"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

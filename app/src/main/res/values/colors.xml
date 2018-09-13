@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="kargoBlueButton">#30AAF0</color>
+    <color name="toolbarBlue">#2EC4DC</color>
+    <color name="backgroundGrey">#f7f9f6</color>
+    <color name="boxedBackground">#B3E5FC</color>
+    <color name="text">#888888</color>
+    <color name="text_unselected">#ccc</color>
+    <color name="text_unselected_tab">#D4D4D4</color>
+</resources>

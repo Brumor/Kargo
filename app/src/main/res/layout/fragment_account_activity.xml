@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragmentLayout.AccountActivityFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/OptionItemText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_gravity="center"
+                    android:text="@string/account_activity_gain"/>
+
+                <TextView
+                    style="@style/OptionItemText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginTop="10dp"
+                    android:text="153.86€"/>
+
+                <Button
+                    style="@style/KargoBlueButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/account_activity_button"
+                    android:layout_gravity="center"
+                    android:textSize="11sp"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/OptionItemText"
+                    android:text="@string/account_activity_gaintotal"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/OptionItemText"
+                    android:text="153.86 €"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/OptionItemText"
+                    android:text="@string/account_activity_reviews"/>
+
+                <TextView
+                    style="@style/OptionItemText"
+                    android:text="87%"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/historic_button"
+            style="@style/KargoBlueButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voir Historique"
+            android:layout_margin="0dp"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

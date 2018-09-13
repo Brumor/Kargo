@@ -1,0 +1,195 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragmentLayout.ParametersFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ParametersTitle"
+                android:text="@string/parameters_activityzone_title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="12dp">
+                <TextView
+                    style="@style/ParametersItemText"
+                    android:layout_weight="4"
+                    android:text="@string/parameters_activityzone_radius_text"/>
+
+                <TextView
+                    android:id="@+id/radius_value_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="0 km"
+                    android:textAlignment="center"
+                    android:textColor="@color/text"/>
+
+                <SeekBar
+                    android:id="@+id/radius_seekbar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:min="5"
+                    android:max="50"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp">
+                <TextView
+                    style="@style/ParametersItemText"
+                    android:layout_weight="2"
+                    android:text="@string/parameters_activityzone_from_text"/>
+
+                <RadioGroup
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/parameters_geolocalisation_radiobutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/parameters_activityzone_geolocalisation"/>
+
+                    <RadioButton
+                        android:id="@+id/parameters_adress_radiobutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/parameters_activityzone_adress"/>
+
+                    
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="12dp">
+
+                <TextView
+                    android:id="@+id/parameters_adress_textview"
+                    style="@style/ParametersItemText"
+                    android:layout_weight="2"
+                    android:text="@string/parameters_activityzone_adress_option"
+                    android:textColor="@color/text_unselected"/>
+
+                <EditText
+                    android:id="@+id/parameters_adress_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:hint="@string/parameters_activityzone_adress_hint"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/ParametersTitle"
+                android:text="@string/parameters_vehiculetype_title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="12dp">
+
+                <Button
+                    android:id="@+id/button_l"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="L"/>
+
+                <Button
+                    android:id="@+id/button_xl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="XL"/>
+
+                <Button
+                    android:id="@+id/button_xxl"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="XXL"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="12dp">
+
+                <Spinner
+                    android:id="@+id/car_brand_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                </Spinner>
+
+                <Spinner
+                    android:id="@+id/car_modele_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                </Spinner>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/ParametersTitle"
+                android:text="@string/parameters_authorization_title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="12dp">
+                <Button
+                    android:id="@+id/button_package"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Colis"/>
+                <Button
+                    android:id="@+id/button_cold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Froid"/>
+                <Button
+                    android:id="@+id/button_fragile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Fragile"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

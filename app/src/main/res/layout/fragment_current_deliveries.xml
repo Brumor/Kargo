@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragmentLayout.CurrentDeliveriesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/border_rectangle"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="49"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="Temps Restant : "
+                        android:textAlignment="center"
+                        android:paddingTop="16dp"/>
+                    <TextView
+                        android:id="@+id/total_time_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="--"
+                        android:textColor="@color/colorAccent"
+                        android:textAlignment="center"
+                        android:paddingBottom="16dp"/>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:background="#bbb"
+                    android:alpha="0.5"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="49"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="Colis restant : "
+                        android:textAlignment="center"
+                        android:paddingTop="16dp"/>
+                    <TextView
+                        android:id="@+id/total_package_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text="5"
+                        android:textColor="@color/colorAccent"
+                        android:textAlignment="center"
+                        android:paddingBottom="16dp"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/collect_bar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:background="@drawable/border_rectangle"
+                android:backgroundTint="#BBB">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Prise en charge :"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/pickup_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="destination"
+                    android:textAlignment="center"/>
+
+                <CheckBox
+                    android:id="@+id/collect_checkbox"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Destinations : "
+            android:textAlignment="center"
+            android:paddingTop="16dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:scrollbars="vertical"/>
+
+        <Button
+            android:id="@+id/gotonav_button"
+            style="@style/KargoBlueButton"
+            android:text="@string/delivery_gotonav"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

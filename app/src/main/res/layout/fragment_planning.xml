@@ -1,0 +1,239 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".FragmentLayout.PlanningFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:background="@color/colorAccent">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="&lt;"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:text="Semaine 30"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="&gt;"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/planning_monday_checkbox"
+                style="@style/PlanningCheckbox"/>
+            <TextView
+                android:id="@+id/planning_monday_textview"
+                android:text="@string/planning_monday"
+                style="@style/PlanningDayTextView"/>
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/planning_monday_rangeseekbar"
+                style="@style/PlanningRangeSeekBar"
+                app:textAboveThumbsColor="@color/text"
+                app:showLabels="false"
+                app:absoluteMinValue="6"
+                app:absoluteMaxValue="22"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/planning_tuesday_checkbox"
+                style="@style/PlanningCheckbox"/>
+            <TextView
+                android:id="@+id/planning_tuesday_textview"
+                android:text="@string/planning_tuesday"
+                style="@style/PlanningDayTextView"/>
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/planning_tuesday_rangeseekbar"
+                style="@style/PlanningRangeSeekBar"
+                app:valuesAboveThumbs="true"
+                app:textAboveThumbsColor="@color/text"
+                app:showLabels="false"
+                app:absoluteMinValue="6"
+                app:absoluteMaxValue="22"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/planning_wednesday_checkbox"
+                style="@style/PlanningCheckbox"/>
+            <TextView
+                android:id="@+id/planning_wednesday_textview"
+                android:text="@string/planning_wednesday"
+                style="@style/PlanningDayTextView"/>
+                android:text="0"/>
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/planning_wednesday_rangeseekbar"
+                style="@style/PlanningRangeSeekBar"
+                app:textAboveThumbsColor="@color/text"
+                app:valuesAboveThumbs="true"
+                app:showLabels="false"
+                app:absoluteMinValue="6"
+                app:absoluteMaxValue="22"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/planning_thursday_checkbox"
+                style="@style/PlanningCheckbox"/>
+            <TextView
+                android:id="@+id/planning_thursday_textview"
+                android:text="@string/planning_thursday"
+                style="@style/PlanningDayTextView"/>
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/planning_thursday_rangeseekbar"
+                style="@style/PlanningRangeSeekBar"
+                app:valuesAboveThumbs="true"
+                app:textAboveThumbsColor="@color/text"
+                app:showLabels="false"
+                app:absoluteMinValue="6"
+                app:absoluteMaxValue="22"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/planning_friday_checkbox"
+                style="@style/PlanningCheckbox"/>
+            <TextView
+                android:id="@+id/planning_friday_textview"
+                android:text="@string/planning_friday"
+                style="@style/PlanningDayTextView"/>
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/planning_friday_rangeseekbar"
+                style="@style/PlanningRangeSeekBar"
+                app:textAboveThumbsColor="@color/text"
+                app:valuesAboveThumbs="true"
+                app:showLabels="false"
+                app:absoluteMinValue="6"
+                app:absoluteMaxValue="22"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/planning_saturday_checkbox"
+                style="@style/PlanningCheckbox"/>
+            <TextView
+                android:id="@+id/planning_saturday_textview"
+                android:text="@string/planning_saturday"
+                style="@style/PlanningDayTextView"/>
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/planning_saturday_rangeseekbar"
+                style="@style/PlanningRangeSeekBar"
+                app:valuesAboveThumbs="true"
+                app:textAboveThumbsColor="@color/text"
+                app:showLabels="false"
+                app:absoluteMinValue="6"
+                app:absoluteMaxValue="22"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/planning_sunday_checkbox"
+                style="@style/PlanningCheckbox"/>
+            <TextView
+                android:id="@+id/planning_sunday_textview"
+                android:text="@string/planning_sunday"
+                style="@style/PlanningDayTextView"/>
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/planning_sunday_rangeseekbar"
+                style="@style/PlanningRangeSeekBar"
+                app:valuesAboveThumbs="true"
+                app:textAboveThumbsColor="@color/text"
+                app:showLabels="false"
+                app:absoluteMinValue="6"
+                app:absoluteMaxValue="22"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nombres d'heures : "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/planning_total_textview"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/current_delivery_call" android:title="Appeler"></item>
+    <item android:id="@+id/current_delivery_text" android:title="Envoyer un message"></item>
+    <item android:id="@+id/current_delivery_end" android:title="Bon de Livraison"></item>
+    <item android:id="@+id/current_delivery_navigation" android:title="Montrer sur la carte"></item>
+
+</menu>

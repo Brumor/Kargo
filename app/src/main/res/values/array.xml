@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="car_brand">
+        <item>Marque...</item>
+        <item>Citroen</item>
+        <item>Renault</item>
+        <item>Volkswagen</item>
+        <item>BMW</item>
+    </string-array>
+
+    <string-array name="car_modele">
+        <item>Modele...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

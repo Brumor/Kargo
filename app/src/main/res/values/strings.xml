@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Kargo</string>
+
+    <string name="button_login_goto">Se Connecter</string>
+    <string name="button_signup_goto">S\'inscrire</string>
+
+    <string name="edittext_email_hint">Email</string>
+    <string name="edittext_email_required">Email requis</string>
+    <string name="edittext_password_hint">Mot de passe</string>
+    <string name="edittext_password_required">Mot de passe requis</string>
+
+    <string name="title_item_mission">Mes Missions</string>
+    <string name="title_item_account">Mon Compte</string>
+    <string name="title_item_planning">Mon Planning</string>
+    <string name="title_item_messages">Mes Messages</string>
+    <string name="title_item_assistance">Assistance</string>
+    <string name="title_item_parameters">Paramètres</string>
+    <string name="title_item_faq">A Propos/FAQ</string>
+    <string name="title_item_logout">Se déconnecter</string>
+
+    <string name="deliveries_tab_current">En cours</string>
+    <string name="deliveries_tab_coming">A venir</string>
+
+    <string name="account_tab_info">Mes Infos</string>
+    <string name="account_tab_activity">Mon Activité</string>
+
+    <string name="account_info_title">Mes Infos</string>
+    <string name="account_info_country">Pays : </string>
+    <string name="account_info_city">Ville : </string>
+    <string name="account_info_state">Statut : </string>
+    <string name="account_info_signin_date">Membre depuis : </string>
+    <string name="account_info_delivery_number">Livraisons effectuées : </string>
+    <string name="account_info_telephone">Téléphone : </string>
+    <string name="account_info_mail">Email : </string>
+    <string name="account_info_button">Modifier</string>
+
+    <string name="account_activity_gain">Gains : </string>
+    <string name="account_activity_gaintotal">Gains totaux : </string>
+    <string name="account_activity_reviews">Avis positifs : </string>
+    <string name="account_activity_historic">Historique</string>
+    <string name="account_activity_button">Récupérer</string>
+
+    <string name="planning_monday">L</string>
+    <string name="planning_tuesday">M</string>
+    <string name="planning_wednesday">M</string>
+    <string name="planning_thursday">J</string>
+    <string name="planning_friday">V</string>
+    <string name="planning_saturday">S</string>
+    <string name="planning_sunday">D</string>
+
+    <string name="assistance_package_handling">Demande de prise en charge d\'une livraison</string>
+    <string name="assistance_technical">Assistance technique</string>
+    <string name="assistance_broke_lost">Casse/Perte</string>
+    <string name="assistance_unavailable">Prévenir d\'une indisponibilité</string>
+    <string name="assistance_callus">Appelez-nous</string>
+    <string name="assistance_textus">Envoyez-nous un SMS</string>
+
+    <string name="parameters_activityzone_title">Zone d\'activité</string>
+    <string name="parameters_vehiculetype_title">Type de Véhicule</string>
+    <string name="parameters_authorization_title">Autorisations</string>
+    <string name="parameters_activityzone_radius_text">Rayon d\'activité : </string>
+    <string name="parameters_activityzone_from_text">A partir de : </string>
+    <string name="parameters_activityzone_geolocalisation">Géolocalisation </string>
+    <string name="parameters_activityzone_adress">Adresse </string>
+    <string name="parameters_activityzone_adress_option">Adresse : </string>
+    <string name="parameters_activityzone_adress_hint">Entrer une adresse... </string>
+
+    <string name="delivery_confirm_erase">Effacer</string>
+    <string name="delivery_confirm_comment">Laisser un commentaire...</string>
+    <string name="delivery_confirm_confirm">Confirmer le transfert</string>
+
+    <string name="coming_delivery_from">Lieu de prise en charge :</string>
+    <string name="coming_delivery_destinations">Nombre de destinations :</string>
+    <string name="coming_delivery_packages">Nombre de colis :</string>
+    <string name="coming_delivery_duration">Durée de la course :</string>
+    <string name="coming_delivery_details">Détails :</string>
+
+    <string name="delivery_gotonav">Continuer la navigation</string>
+
+    <string name="open_closer">open drawer</string>
+    <string name="close_closer">close drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--ERROR-->
+    <string name="error_authentification">Problème d\'authentification</string>
+    <string name="error_certification">L\'adresse n\'est pas certifiée. Veuillez vérifier votre adresse email.</string>
+    <string name="error_email_exist">L\'adresse email est déjà enregistrée</string>
+    <string name="send_email_certification_fail">Impossible d\envoyer le mail de certification</string>
+    <string name="send_email_certification_ok">L\'email de certification a été envoyé à </string>
+
+
+
+
+</resources>

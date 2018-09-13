@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_mission" android:title="Mes Missions" android:icon="@drawable/ic_directions_car_white_24dp"></item>
+    <item android:id="@+id/menu_item_account" android:title="Mon Compte" android:icon="@drawable/ic_account_circle_white_24dp"></item>
+    <item android:id="@+id/menu_item_planning" android:title="Mon Planning" android:icon="@drawable/ic_date_range_white_24dp"></item>
+    <item android:id="@+id/menu_item_assistance" android:title="Assistance" android:icon="@drawable/ic_call_white_24dp"></item>
+    <item android:id="@+id/menu_item_parameter" android:title="Parametres" android:icon="@drawable/ic_settings_white_24dp"></item>
+    <item android:id="@+id/menu_item_faq" android:title="A propos/faq" android:icon="@drawable/ic_info_white_24dp"></item>
+    <item android:id="@+id/menu_item_logout" android:title="Se deconnecter" android:icon="@drawable/ic_exit_to_app_white_24dp"></item>
+</menu>

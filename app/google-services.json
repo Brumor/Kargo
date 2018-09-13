@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "944162726588",
+    "firebase_url": "https://kargo-40bef.firebaseio.com",
+    "project_id": "kargo-40bef",
+    "storage_bucket": "kargo-40bef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944162726588:android:4a813e923a250abf",
+        "android_client_info": {
+          "package_name": "com.app.kargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944162726588-o487rqk0sogu40t4v5fldu9i22oaqlnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.kargo",
+            "certificate_hash": "1359a1391fd45f07628b1e89b2dd2b43403d0799"
+          }
+        },
+        {
+          "client_id": "944162726588-3boo9bm0rdk0u14c73osrs6o3tld5hqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZnLhjcXx9F5A-V93Rn8G8le2G9EKzrlY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944162726588-3boo9bm0rdk0u14c73osrs6o3tld5hqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
